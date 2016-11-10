@@ -1,0 +1,38 @@
+{
+  "name": "mean_stack",
+  "version": "1.0.0",
+  "description": "MongoDB, Node.js, Express, Angular, REST and Ionic",
+  "main": "index.js",
+  "scripts": {
+    "watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejuniorasas/mean_stack.git"
+  },
+  "author": "Emilio Junior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ejuniorasas/mean_stack/issues"
+  },
+  "homepage": "https://github.com/ejuniorasas/mean_stack#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-session": "^1.14.1",
+    "http-status": "^0.2.3",
+    "mongoose": "^4.6.2",
+    "passport": "^0.3.2",
+    "underscore": "^1.8.3",
+    "wagner-core": "^0.2.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^3.0.1",
+    "karma": "^1.3.0",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-mocha": "^1.2.0",
+    "mocha": "^3.1.0"
+  }
+}
